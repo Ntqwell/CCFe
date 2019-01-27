@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   </head>
-  <!--main page-->
+  <!-- main page-->
   <body class="page">
-    <!--header-->
+    <!-- header-->
     <header class="header">
-      <!--slider-->
+      <!-- slider-->
       <div class="slider__header">
         <div class="slider__img_1"></div>
       </div>
@@ -28,12 +29,12 @@
       </div>
       <div class="header-carousel"></div>
       <div class="header-inside">
-        <!--navbar-->
+        <!-- navbar-->
         <nav class="navbar navbar_btm-border">
           <div class="container__navbar">
-            <!--logo-->
+            <!-- logo-->
             <div class="logo"><a class="logo__brand" href="/" title="title">Coffee<br><small class="logo__brand_small">blend</small></a></div>
-            <!--main-menu-->
+            <!-- main-menu-->
             <div class="menu">
               <ul class="menu__list">
                 <li class="menu__item menu__item_active"><a href="#" title="home">Home </a></li>
@@ -41,8 +42,8 @@
                 <li class="menu__item"><a href="#" title="services">Services</a></li>
                 <li class="menu__item"><a href="#" title="blog">Blog </a></li>
                 <li class="menu__item"><a href="#" title="about">About </a></li>
-                <li class="menu__item"><a href="#" title="shop">Shop<span>&#9660</span></a>
-                  <!--sub-menu-->
+                <li class="menu__item"><a href="#" title="shop">Shop<span>▼</span></a>
+                  <!-- sub-menu-->
                   <ol class="menu__sub-list">
                     <li class="menu__sub-item"><a href="/" title="shop">Menu</a></li>
                     <li class="menu__sub-item"><a href="/" title="shop">Blog</a></li>
@@ -54,8 +55,8 @@
                 <li class="menu__item"><a class="menu__item-abs" href="/" title="basket"><i class="fas fa-shopping-cart"></i></a></li>
               </ul>
             </div>
-            <!--hamburger-toggle-->
-            <div class="hamburger-toggle"> 
+            <!-- hamburger-toggle-->
+            <div class="hamburger-toggle">
               <div class="hamburger-toggle__toggle">Menu
                 <div class="hamburger-toggle__item"></div>
                 <ol class="menu__sub-list">
@@ -68,17 +69,17 @@
             </div>
           </div>
         </nav>
-        <!--header banner content-->
+        <!-- header banner content-->
         <div class="header-main">
           <div class="container__header-main">
             <div class="header__contant">
-              <div class="header__title-top"> 
+              <div class="header__title-top">
                 <div class="header__title-top-sub">Welcome</div>
               </div>
-              <div class="header__title-middle"> 
+              <div class="header__title-middle">
                 <div class="header__title-middle-sub">The Best Coffee Testing Experience</div>
               </div>
-              <div class="header__title-down"> 
+              <div class="header__title-down">
                 <div class="header__title-down-sub">A small river named Duden flows by their place and supplies it with the necessary regelialia.</div>
               </div>
               <div class="header-btn">
@@ -90,11 +91,11 @@
         </div>
       </div>
     </header>
-    <!--hd-info header-form & info-->
+    <!-- hd-info/header-form & info-->
     <section class="hd-info">
       <div class="container__hd-info">
         <div class="address__hd-info">
-          <!--hd-numb-->
+          <!-- hd-numb-->
           <div class="hd-info__number">
             <div class="number__icon"><i class="fas fa-phone"></i></div>
             <div class="number__content">
@@ -102,7 +103,7 @@
               <div class="number__text">A small river named Duden flows by their place and supplies.</div>
             </div>
           </div>
-          <!--hd-local-->
+          <!-- hd-local-->
           <div class="hd-info__local">
             <div class="local__icon"><i class="fas fa-address-card"></i></div>
             <div class="local__content">
@@ -110,7 +111,7 @@
               <div class="local__text">A small river named Duden flows by their place and supplies.</div>
             </div>
           </div>
-          <!--hd-time-->
+          <!-- hd-time-->
           <div class="hd-info__time">
             <div class="time__icon"><i class="fas fa-map-marker-alt"></i></div>
             <div class="time__content">
@@ -119,7 +120,7 @@
             </div>
           </div>
         </div>
-        <!--hd-info form-->
+        <!-- hd-info form-->
         <div class="form__book">
           <div class="form-book__title">
             <p class="form-book__text">BOOK A TABLE</p>
@@ -135,18 +136,18 @@
             </div>
             <div class="form-appoint_mdl">
               <div class="form__group-mdl-1">
-                <div class="mdl-input-wrap-1">
-                  <input class="mdl-input-data" type="data" placeholder="Data">
+                <div class="mdl-input-wrap-1"><i class="fas fa-calendar-alt market-appoint"></i>
+                  <input class="mdl-input-data" type="date" placeholder="Data">
                 </div>
               </div>
               <div class="form__group-mdl-2">
                 <div class="mdl-input-wrap-2">
-                  <input class="mdl-input-time" type="text" placeholder="Time">
+                  <input class="mdl-input-time" type="time" name="cron" value="17:20" min="00:01" max="06:00" placeholder="Time">
                 </div>
               </div>
               <div class="form__group-mdl-3">
                 <div class="mdl-input-wrap-2">
-                  <input class="mdl-input-phone" type="text" placeholder="Phone">
+                  <input class="mdl-input-phone" type="text" placeholder="+7 (938)2352334">
                 </div>
               </div>
             </div>
@@ -164,14 +165,14 @@
         </div>
       </div>
     </section>
-    <!--discover section-->
+    <!-- discover section-->
     <section class="discover">
       <div class="discover__container">
-        <!--left side-->
+        <!-- left side-->
         <div class="divcover__bg">
           <div class="discover__bg-img"></div>
         </div>
-        <!--right side-->
+        <!-- right side-->
         <div class="discover__story">
           <div class="b-shadow__container">
             <div class="discover__b-shadow">
@@ -185,22 +186,22 @@
         </div>
       </div>
     </section>
-    <!--services-->
+    <!-- services-->
     <section class="services">
       <div class="services__container">
-        <!--order anim-->
+        <!-- order anim-->
         <div class="order-group">
           <div class="order__icon"><i class="order__icon-search far fa-credit-card"></i></div>
           <div class="order__title">EASY TO ORDER</div>
           <div class="order__disc">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</div>
         </div>
-        <!--fast anim-->
+        <!-- fast anim-->
         <div class="fast-group">
           <div class="fast__icon"><i class="fast__icon-search fas fa-shipping-fast"></i></div>
           <div class="fast__title">FASTEST DELIVERY</div>
           <div class="fast__disc">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</div>
         </div>
-        <!--quality anim-->
+        <!-- quality anim-->
         <div class="quality-group">
           <div class="quality__icon"><i class="quality__icon-search fas fa-coffee"></i></div>
           <div class="quality__title">QUALITY COFFEE</div>
@@ -208,10 +209,10 @@
         </div>
       </div>
     </section>
-    <!--product section-->
+    <!-- product section-->
     <section class="product">
       <div class="product__container">
-        <!--title-->
+        <!-- title-->
         <div class="product__cont-top">
           <div class="product__top-group">
             <div class="product__title">Discover</div>
@@ -219,18 +220,18 @@
             <div class="product__disc">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div>
           </div>
         </div>
-        <!--tabs-->
-        <!--tabs-top item-->
+        <!-- tabs-->
+        <!-- tabs-top item-->
         <div class="product__tabs-container">
           <ul class="product-tabs">
             <li class="tabs-link link-current" data-tab="tab-1">Main Dish</li>
             <li class="tabs-link" data-tab="tab-2">Burger</li>
             <li class="tabs-link" data-tab="tab-3">Desserts</li>
           </ul>
-          <!--tabs-1 content-->
+          <!-- tabs-1 content-->
           <div class="tabs-content tabs-current" id="tab-1">
             <div class="tabs-content__group">
-              <!--card-1-->
+              <!-- card-1-->
               <div class="tabs-content__card-1">
                 <div class="content-tabs__img">
                   <div class="content-tabs__img-beef"></div>
@@ -240,7 +241,7 @@
                 <div class="content-tabs__price">$2.90</div>
                 <button class="content-tabs__btn">Add to cart</button>
               </div>
-              <!--card-2-->
+              <!-- card-2-->
               <div class="tabs-content__card-1">
                 <div class="content-tabs__img">
                   <div class="content-tabs__img-meet"></div>
@@ -250,7 +251,7 @@
                 <div class="content-tabs__price">$2.90</div>
                 <button class="content-tabs__btn">Add to cart</button>
               </div>
-              <!--card-3-->
+              <!-- card-3-->
               <div class="tabs-content__card-1">
                 <div class="content-tabs__img">
                   <div class="content-tabs__img-grill"></div>
@@ -262,10 +263,10 @@
               </div>
             </div>
           </div>
-          <!--tabs-1 content-->
+          <!-- tabs-1 content-->
           <div class="tabs-content" id="tab-2">
             <div class="tabs-content__group">
-              <!--card-1-->
+              <!-- card-1-->
               <div class="tabs-content__card-1">
                 <div class="content-tabs__img">
                   <div class="content-tabs__img-lemonad"></div>
@@ -275,7 +276,7 @@
                 <div class="content-tabs__price">$2.90</div>
                 <button class="content-tabs__btn">Add to cart</button>
               </div>
-              <!--card-2-->
+              <!-- card-2-->
               <div class="tabs-content__card-1">
                 <div class="content-tabs__img">
                   <div class="content-tabs__img-pineapple"></div>
@@ -285,7 +286,7 @@
                 <div class="content-tabs__price">$2.90</div>
                 <button class="content-tabs__btn">Add to cart</button>
               </div>
-              <!--card-3-->
+              <!-- card-3-->
               <div class="tabs-content__card-1">
                 <div class="content-tabs__img">
                   <div class="content-tabs__img-soda"></div>
@@ -297,10 +298,10 @@
               </div>
             </div>
           </div>
-          <!--tabs-3 content-->
+          <!-- tabs-3 content-->
           <div class="tabs-content" id="tab-3">
             <div class="tabs-content__group">
-              <!--card-1-->
+              <!-- card-1-->
               <div class="tabs-content__card-1">
                 <div class="content-tabs__img">
                   <div class="content-tabs__img-cake"></div>
@@ -310,7 +311,7 @@
                 <div class="content-tabs__price">$2.90</div>
                 <button class="content-tabs__btn">Add to cart</button>
               </div>
-              <!--card-2-->
+              <!-- card-2-->
               <div class="tabs-content__card-1">
                 <div class="content-tabs__img">
                   <div class="content-tabs__img-pancakes"></div>
@@ -320,7 +321,7 @@
                 <div class="content-tabs__price">$2.90</div>
                 <button class="content-tabs__btn">Add to cart</button>
               </div>
-              <!--card-3-->
+              <!-- card-3-->
               <div class="tabs-content__card-1">
                 <div class="content-tabs__img">
                   <div class="content-tabs__img-icecream"></div>
@@ -335,26 +336,26 @@
         </div>
       </div>
     </section>
-    <!--footer section-->
+    <!-- footer section-->
     <footer class="footer">
       <div class="footer__container">
-        <!--about-->
+        <!-- about-->
         <div class="footer__about">
           <div class="about__title">ABOUT US</div>
           <div class="about__discr">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div>
           <div class="about__social-icon-group"><a class="about__social-facebook" href="facebook.com" title="title" target="_blank"><i class="fab fa-facebook"></i></a><a class="about__social-facebook" href="facebook.com" title="title" target="_blank"><i class="fab fa-instagram"></i></a><a class="about__social-facebook" href="facebook.com" title="title" target="_blank"><i class="fab fa-vk"></i></a></div>
         </div>
-        <!--recent-->
+        <!-- recent-->
         <div class="footer__recent">
           <div class="recent__title">RECENT BLOG</div>
           <div class="recent__post-group">
             <div class="recent__post-img"></div>
             <div class="recent__post-wrap">
-              <div class="recent__post-title"> <a class="recent__item-link" href="/" title="title"> Even the all-powerful Pointing has no control about...</a></div><span class="renect__post-data">Admin</span><i class="fas fa-user"></i>
+              <div class="recent__post-title"><a class="recent__item-link" href="/" title="title"> Even the all-powerful Pointing has no control about...</a></div><span class="renect__post-data">Admin</span><i class="fas fa-user"></i>
             </div>
           </div>
         </div>
-        <!--services-->
+        <!-- services-->
         <div class="footer__serv">
           <div class="serv__title">SERVICES</div>
           <ul class="serv__list">
@@ -364,7 +365,7 @@
             <li class="serv__item"><a class="serv__item-link" href="/" title="title">Mixed</a></li>
           </ul>
         </div>
-        <!--question-->
+        <!-- question-->
         <div class="footer__quest">
           <div class="quest__title">HAVE A QUESTIONS?</div>
           <div class="quest__group">
@@ -377,15 +378,16 @@
           </div>
           <div class="quest__group">
             <div class="quest__icon"><i class="fas fa-map-marker-alt"></i></div>
-            <div class="quest__discr"> <a class="quest__disct-mail" href="malto:email@google.com" title="title">info@yourdomain.com</a></div>
+            <div class="quest__discr"><a class="quest__disct-mail" href="malto:email@google.com" title="title">info@yourdomain.com</a></div>
           </div>
         </div>
       </div>
-      <!--copyright-->
+      <!-- copyright-->
       <div class="copyright">
         <div class="copyright__title">Copyright ©2019 blah blah</div>
       </div>
     </footer>
+    <!--scripts-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scrolltop.js"></script>
     <script src="js/hamburger.js"></script>
